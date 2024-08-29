@@ -4,7 +4,7 @@
   "main": "index.js",
   "scripts": {
     "start": "json-server --watch db.json --port ${PORT}",
-    "dev": "nodemon --watch db.json --exec 'npm start'"
+    "dev": "nodemon --watch db.json --exec \"npm start\""
   },
   "author": "Your Name",
   "license": "ISC",
